@@ -1,16 +1,22 @@
-v 0.0.6
+---------------------------------------------------------------------------------------------------
+Version: 0.0.6
+Date: 2021.02.01
+  Major Features:
  - Updated to Factorio version 1.1
-
-v 0.0.5
+ - Fix for items not disappearing like they should when researched
+ - Fix for crash on startup
+---------------------------------------------------------------------------------------------------
+Version: 0.0.5
  - Updated to Factorio version 0.18
-
-v 0.0.4
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
  - Updated technology name for roboports to match the new name in base Factorio
-
-v 0.0.3
+---------------------------------------------------------------------------------------------------
+Version: 0.0.3
  - Fixed the disappearing code that was supposed to set the construction bot research
-
-v 0.0.2
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
  - Removed a source image that bloated the file size
-
-v 0.0.1
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+ - Initial Release
