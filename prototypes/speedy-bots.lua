@@ -27,20 +27,23 @@ speedybot.idle = {
     width = 32,
     height = 36,
     frame_count = 1,
-    shift = {0, -0.15625},
+    shift = util.by_pixel(0,-4.5),
     direction_count = 16,
-    hr_version = {
-        filename = "__how-it-should-have-started__/graphics/entity/robots/hr-construction-robot-speedy.png",
-        priority = "high",
-        line_length = 16,
-        width = 66,
-        height = 76,
-        frame_count = 1,
-        shift = util.by_pixel(0, -4.5),
-        direction_count = 16,
-        scale = 0.5
+    hr_version =
+    {
+      filename = "__how-it-should-have-started__/graphics/entity/robots/hr-construction-robot-speedy.png",
+      priority = "high",
+      line_length = 16,
+      width = 66,
+      height = 76,
+      frame_count = 1,
+      shift = util.by_pixel(0,-4.5),
+      direction_count = 16,
+      scale = 0.5
     }
 }
+
+
 
 speedybot.in_motion = {
     filename = "__how-it-should-have-started__/graphics/entity/robots/construction-robot-speedy.png",
@@ -49,10 +52,11 @@ speedybot.in_motion = {
     width = 32,
     height = 36,
     frame_count = 1,
-    shift = {0, -0.15625},
+    shift = util.by_pixel(0, -4.5),
     direction_count = 16,
     y = 36,
-    hr_version = {
+    hr_version =
+    {
         filename = "__how-it-should-have-started__/graphics/entity/robots/hr-construction-robot-speedy.png",
         priority = "high",
         line_length = 16,
@@ -65,6 +69,9 @@ speedybot.in_motion = {
         scale = 0.5
     }
 }
+
+
+
 speedybot.working = {
     filename = "__how-it-should-have-started__/graphics/entity/robots/construction-robot-working-speedy.png",
     priority = "high",
@@ -72,10 +79,11 @@ speedybot.working = {
     width = 28,
     height = 36,
     frame_count = 2,
-    shift = {0, -0.15625},
+    shift = util.by_pixel(-0.25, -5),
     direction_count = 16,
     animation_speed = 0.3,
-    hr_version = {
+    hr_version =
+    {
         filename = "__how-it-should-have-started__/graphics/entity/robots/hr-construction-robot-working-speedy.png",
         priority = "high",
         line_length = 2,

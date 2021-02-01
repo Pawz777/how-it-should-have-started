@@ -26,6 +26,8 @@ script.on_event(
         playerInventory.insert({name = "speedy-robo", count = 1})
         playerInventory.insert({name = "solar-panel-equipment", count = 1})
 
+        player.force.technologies["construction-robotics"].researched = true
+
         --player.insert({name = "light-armor", count = 1})
         --[[
         
@@ -62,7 +64,7 @@ script.on_event(
                 end
             end
         else
-            if (event.research and event.research.name == "personal-roboport-equipment-2") then
+            if (event.research and event.research.name == "personal-roboport-mk2-equipment") then
                 for k, player in pairs(game.players) do
                     for i, inventory in pairs(inventories) do
                         local playerInventory = player.get_inventory(inventory)
